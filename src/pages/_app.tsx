@@ -61,15 +61,7 @@ export default function App({ Component, pageProps }: AppProps) {
               }}
             />
             <div className={`grow` } />
-
-            <Link
-              href={`https://beriffa.com`}
-              target={`_blank`}
-            >
-              <Button variant={`ghost`} tapEnabled>
-<img src="https://edge-prodberiffagroup.b-cdn.net/web/seek0beriffamainmenuicon.png" width={100} alt="" />
-              </Button>
-            </Link>
+            <ThemeToggle />
           </div>
           <Component {...pageProps} />
         </div>
