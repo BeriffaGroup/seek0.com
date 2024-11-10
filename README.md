@@ -1,39 +1,5 @@
 <div align="center">
 
-# 🧪 Next Whois UI
-😎 Lightweight & Beautiful Whois Query Tool
-
-[English](README.md) · [简体中文](README_CN.md) · [繁體中文](README_TW.md)
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zmh-program/next-whois-ui)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zmh-program/next-whois-ui)
-
-</div>
-
-## 😎 Features
-No need to say more, just try it out! 🥳
-
-1. ✨ **Pretty UI**: Modern design with [Shadcn UI](https://ui.shadcn.com), make you feel comfortable.
-2. 📱 **Responsive**: Works well on Mobile✅ / Tablet✅ / Desktop✅, PWA App Support.
-3. 🌈 **Multi Theme**: Multi theme support (*Light & Dark*), system theme detection, switch theme as you like.
-4. 🚀 **Flexible Query**: Powered by Next.js, support serverless deployment and fast query.
-5. 📚 **Record History**: History records are stored in local storage, easy to view and query history.
-6. 📡 **Open API**: Simple API for whois query, easy to integrate with other services.
-7. 🌍 **IPv4 & IPv6 Whois**: Support IPv4, IPv6, Domain, ASN, CIDR whois query.
-8. 📦 **Result Capture**: Capture whois result, easy to share and save.
-9. 📡 **Whois Cache**: Support whois cache based on Redis, improve query speed.
-10. 🌍 [WIP] **Internationalization**: Support multiple languages. ([#6](https://github.com/zmh-program/next-whois-ui/issues/6))
-
-👉 [Create Pull Request](https://github.com/zmh-program/next-whois-ui/pulls)
-
-## Deploy
-#### `1` 🚀 Platforms (Recommended)
-[Vercel](https://vercel.com/import/project?template=https://github.com/zmh-program/next-whois-ui) / [Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/zmh-program/next-whois-ui) / [Zeabur](https://zeabur.com/templates/UHCCCT)
-#### `2` 🐳 Docker
-```bash
-docker run -d -p 3000:3000 programzmh/next-whois-ui
-```
 
 #### `3` 🔨 Source Code
 ```bash
