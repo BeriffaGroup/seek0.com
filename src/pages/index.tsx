@@ -17,6 +17,8 @@ import { cn, isEnter, toSearchURI } from "@/lib/utils";
 import { addHistory, listHistory, removeHistory } from "@/lib/history";
 import Icon from "@/components/icon";
 import Clickable from "@/components/motion/clickable";
+import { Badge } from "@/components/ui/badge";
+import { VERSION } from "@/lib/env";
 
 export default function Home() {
   const [domain, setDomain] = React.useState<string>("");
@@ -39,7 +41,7 @@ export default function Home() {
           }
         >
           <Search className={`w-4 h-4 md:w-6 md:h-6 mr-1 md:mr-1.5 shrink-0`} />
-          Whois Lookup
+          Seek0 Whois Lookup
         </h1>
         <div
           className={"flex flex-row items-center flex-wrap justify-center mt-1"}
@@ -84,11 +86,19 @@ export default function Home() {
             <CheckIcon className={`w-4 h-4 mr-1 shrink-0`} />
             <p>CIDR</p>
           </div>
+          <div
+            className={
+              "flex mx-1 my-0.5 flex-row items-center text-md text-secondary text-center"
+            }
+          >
+          
+            <p>Search the whois database, look up domain and IP owner information, and check out dozens of other statistics. Get all the data you need about a domain and everything associated with that domain anytime with a single search.</p>
+          </div>
         </div>
         <div className={"relative flex flex-row items-center w-full mt-2"}>
           <Input
             className={`w-full text-center transition-all duration-300 hover:shadow`}
-            placeholder={`domain name (e.g. google.com, 8.8.8.8)`}
+            placeholder={`domain name (e.g. beriffa.com, 8.8.8.8)`}
             value={domain}
             onChange={(e) => setDomain(e.target.value)}
             onKeyDown={(e) => {
@@ -192,6 +202,22 @@ export default function Home() {
           </>
         )}
       </div>
+      <div
+          className={`mt-00 text-sm flex flex-row items-center font-medium text-muted-foreground select-none`}
+        >
+          Seek0 by Beriffa Group © 2015-2024{" "}
+          
+      <Link
+            href={`https://www.beriffa.com`}
+            target={`_blank`}
+            className={`text-primary underline underline-offset-2 mx-1`}
+          >
+
+
+          </Link>
+          <Badge variant={`outline`}>Beriffa Cloud Version OS-4011-1280</Badge>
+          </div>
+          
     </main>
   );
 }

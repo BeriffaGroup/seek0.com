@@ -715,18 +715,20 @@ export default function Lookup({ data, target }: Props) {
           <ResultComp data={data} target={target} />
         </div>
         <div
-          className={`mt-12 text-sm flex flex-row items-center font-medium text-muted-foreground select-none`}
+          className={`mt-00 text-sm flex flex-row items-center font-medium text-muted-foreground select-none`}
         >
-          Powered by{" "}
-          <Link
-            href={`https://github.com/zmh-program/next-whois-ui`}
+          Seek0 by Beriffa Group © 2015-2024{" "}
+          
+      <Link
+            href={`https://www.beriffa.com`}
             target={`_blank`}
             className={`text-primary underline underline-offset-2 mx-1`}
           >
-            Next Whois UI
+
+
           </Link>
-          <Badge variant={`outline`}>v{VERSION}</Badge>
-        </div>
+          <Badge variant={`outline`}>Beriffa Cloud Version OS-4011-1280</Badge>
+          </div>
       </main>
     </ScrollArea>
   );
