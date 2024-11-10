@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
               href={`https://beriffa.com`}
               target={`_blank`}
             >
-              <Button variant={`outline`} size={Icon} tapEnabled>
+              <Button variant={`ghost`} tapEnabled>
 <img src="https://edge-prodberiffagroup.b-cdn.net/web/seek0beriffamainmenuicon.png" width={100} alt="" />
               </Button>
             </Link>
