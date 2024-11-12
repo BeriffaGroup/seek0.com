@@ -1,7 +1,7 @@
 #### `3` Source Code
 ```bash
 git clone https://github.com/BeriffaGroup/seek0.com
-cd next-whois-ui
+cd seek0.com
 
 npm install -g pnpm
 pnpm install
