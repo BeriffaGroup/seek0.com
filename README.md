@@ -31,3 +31,5 @@ pnpm dev
 - `REDIS_DB`: Redis DB (Default: 0)
 - `REDIS_CACHE_TTL`: Redis Cache TTL Secs (Default: 3600)
 
+Created with <3 by @tootlejack @fiskce & @beriffagroup
+
