@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e050fae3-3e92-4f63-9a54-725525d0b2d1/deploy-status)](https://app.netlify.com/sites/seek0/deploys)
+
+
+
 #### Source Code
 ```bash
 git clone https://github.com/BeriffaGroup/seek0.com
