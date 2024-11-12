@@ -1,6 +1,6 @@
 #### `3` Source Code
 ```bash
-git clone https://github.com/zmh-program/next-whois-ui
+git clone https://github.com/BeriffaGroup/seek0.com
 cd next-whois-ui
 
 npm install -g pnpm
