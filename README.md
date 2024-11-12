@@ -1,4 +1,4 @@
-#### `3` Source Code
+#### Source Code
 ```bash
 git clone https://github.com/BeriffaGroup/seek0.com
 cd seek0.com
