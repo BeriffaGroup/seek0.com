@@ -205,7 +205,7 @@ export default function Home() {
       <div
           className={`mt-00 text-sm flex flex-row items-center font-medium text-muted-foreground select-none`}
         >
-          Seek0 by Beriffa Group © 2015-2025{" "}
+          Seek0 by Beriffa Group © 2009-2026{" "}
           
       <Link
             href={`https://www.beriffa.com`}
